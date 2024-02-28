@@ -30,6 +30,9 @@
         scroll-margin-top: 120px;
     }/*버튼누르고 스크롤 내려갔을때 상단의 공백*/
     
+    
+    
+    
 	/* 테이블 셀과 테두리 스타일 */
 	tr, td {
 	    border: 1px solid #ccc;
@@ -93,6 +96,9 @@
 	    margin-top: 5px; /* 상단 여백 */
 	    display: inline-block;
 	}
+
+ 
+  	
     
 </style>
 <body>
@@ -122,7 +128,7 @@
             <img class="S_img5" onmouseover="onIMG();" onmouseout="offIMG();"style="width: 40px;" src="/img/coffee/${itemInfo[0].img5}" alt="">
           </div>
         </div>
-        <form method='get' action="/order" id="goOrder">
+        <form method='get' action="/order" id="goOrder"  class='doOrder'>
         <input type="hidden" style="display:none" id="goodsNumber" name="goodsNumber" value="${itemInfo[0].id}">
          <input type="hidden" style="display:none" id="gPrice" name="goodsPrice" value="">
         <div style="display: inline-block; ">
@@ -162,27 +168,30 @@
         </div>
       </div>
       <div id="mainDIS" style="text-align: center;"><!--상품상세설명-->
-        ${itemInfo[0].content}
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
-        <h1 style="text-align: center;">먹태가 고추장에는 어울려</h1>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        ${itemInfo[0].content}<br>
+        
       </div>
       <div id="coment"><!--상품평-->
         <h1 style="text-align: left;font-style: initial;">상품평</h1>

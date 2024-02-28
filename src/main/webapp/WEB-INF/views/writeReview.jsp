@@ -85,7 +85,7 @@
      <div id="mainContent"> 
      
 <div class="layout" id='data_div'>
-   	<label>작성하기</label>
+   	<label>리뷰 작성하기</label>
    	<input type="hidden" style="display:none" class="order_id" value="${order_id}">
     <input type="hidden" style="display:none" class="goods_id" value="${goods_id}">
     <select id="rating" required="required">

@@ -28,6 +28,8 @@ public class ItemControlle {
 	private ReviewDAO rdao;
 	@Autowired
 	private ShopDAO sdao;
+	
+
 
 	@GetMapping("/itemView")
 	public String itemView(@RequestParam("id") String id,Model model) {
